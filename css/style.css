@@ -73,7 +73,7 @@ header{
     font-weight: 700;
     margin: 15px 0;
 }
-.services-text{
+.main-text{
     line-height: 1.75;
 }
 /************PORTFOLIO**************/
@@ -91,6 +91,59 @@ header{
 }
 .pf-text-bottom{
     margin: 0 auto;
+}
+/************ABOUT**************/
+.item-about{
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+.item-about:before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: "";
+    width: 2px;
+    background-color: #f1f1f1;
+    left: 50%;
+    margin-left: -1.5px;
+}
+.item-about>li:before{
+    content: "";
+}
+.item-about li{
+    position: relative;
+    min-height: 170px;
+}
+.item-about li .item-about-img{
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+    left: 50%;
+    position: absolute;
+    z-index: 100;
+    background-color: #fed136;
+    border-radius: 100%;
+    border: 7px solid #f1f1f1;
+    text-align: center;
+}
+.item-about li .item-about-text{
+    position: relative;
+    float: left;
+    text-align: right;
+    width: 41%;
+    padding: 0 20px 20px 100px;
+}
+.item-about>li.item-about-right>.item-about-text{
+    text-align: left;
+    padding: 0px 100px 20px 20px;
+    float: right;
+}
+.item-about-img .item-text-center{
+    text-transform: uppercase;
+    color: white;
+    line-height: 26px;
+    margin-top: 40px;
 }
 /************FOOTER**************/
 .ft-style{
