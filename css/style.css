@@ -1,0 +1,94 @@
+body{
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #777777;
+    background-color: #ffffff;
+}
+/************HEADER**************/
+header{
+    background: url("../img/header-bg.jpg")no-repeat scroll 0px 0px / cover;
+    text-align: center;
+    color: #ffffff;
+}
+.header-text{
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+.header-top-text{
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+.header-bottom-text{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 75px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.buttons{
+    color: #ffffff;
+    background-color: #fed136;
+    font-size: 18px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight:700;
+    border-radius: 3px;
+    padding: 20px 45px;
+}
+.buttons:hover{
+    text-decoration: none;
+    background-color: #fec503;
+    color: #ffffff;
+}
+/************SERVICES**************/
+.all-content{
+    padding: 150px 0;
+}
+.content-title-top{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.content-title-bottom{
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 75px;
+}
+.bg-icons{
+    color: #fed136;
+}
+.main-title{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.services-text{
+    line-height: 1.75;
+}
+/************PORTFOLIO**************/
+.bg-individual{
+    background-color: #f7f7f7;
+}
+.portfolio-text{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 25px;
+    max-width: 400px;
+}
+.pf-title{
+    margin: 0 auto;
+}
+.pf-text-bottom{
+    margin: 0 auto;
+}
