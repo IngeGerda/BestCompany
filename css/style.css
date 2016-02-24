@@ -92,3 +92,27 @@ header{
 .pf-text-bottom{
     margin: 0 auto;
 }
+/************FOOTER**************/
+.ft-style{
+    line-height: 40px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.sign{
+    color: #222222;
+}
+.social-links li a{
+    display: block;
+    background: #222222;
+    height: 40px;
+    width: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 100%;
+    padding-top: 4px;
+}
+.social-links li a:hover{
+    background-color: #fed136;
+}
+.ft-style li a{
+    color:#fed136;
+}
