@@ -54,6 +54,7 @@ header{
     text-transform: uppercase;
     color: #333333;
     font-weight: 700;
+    margin-top: 0px;
     margin-bottom: 15px;
 }
 .content-title-bottom{
@@ -145,7 +146,56 @@ header{
     line-height: 26px;
     margin-top: 40px;
 }
+/************TEAM**************/
+.team-content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team-content img{
+    border: 7px solid #fff;
+}
+.team-content .team-title{
+    margin-bottom: 10px;
+}
+.team-content .team-names{
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.team-text{
+    font-size: 16px;
+}
+.partner-label{
+    padding: 50px;
+}
+/************CONTACT**************/
+.contact-area{
+    background: #222222 url("../img/map-image.png") no-repeat center;
+}
+.contact-area-title{
+    color: #ffffff;
+}
+.form-style{
+    margin-bottom: 25px;
+}
+.form-style input,
+.form-style textarea{
+    padding: 26px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #bbbbbb;
+    font-weight: 600;
+   text-transform: uppercase;
+}
+.form-style input:hover,
+.form-style textarea:hover{
+    border: 2px solid #fed136;
+}
+.buttons-area{
+    margin-top: 25px;
+}
 /************FOOTER**************/
+footer{
+    padding: 20px 0;
+}
 .ft-style{
     line-height: 40px;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
