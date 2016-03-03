@@ -27,8 +27,34 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 </head>
 <body id="home" class="main-content">
-<nav>
-
+<nav class="navbar navbar-default navbar-fixed-top best-nav">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="logo">
+                <a href="#home">Best Company</a>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse header-nav" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="scroll" href="#services">Services</a>
+                </li>
+                <li>
+                    <a class="scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="scroll" href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a class="scroll" href="#team">Team</a>
+                </li>
+                <li>
+                    <a class="scroll" href="#contact">Contact</a>
+                </li>
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+    </div>
 </nav>
 <header>
     <div class="container">
@@ -85,8 +111,13 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-6">
-                <a href="">
+            <div class="col-md-4 col-sm-6 pf-box">
+                <a href="#pfModal1" class="pf-modal-link" data-toggle="modal">
+                    <div class="link-top">
+                    <span class="link">
+                         <i class="fa fa-plus fa-3x"></i>
+                    </span>
+                    </div>
                     <img src="img/roundicons.png" class="img-responsive" alt=""/>
                 </a>
                 <div class="portfolio-text">
@@ -94,18 +125,27 @@
                     <p class="content-title-bottom pf-text-bottom">Graphic Design</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="">
+            <div class="col-md-4 col-sm-6 pf-box">
+                <a href="#pfModal2" class="pf-modal-link" data-toggle="modal">
+                    <div class="link-top">
+                    <span class="link">
+                         <i class="fa fa-plus fa-3x"></i>
+                    </span>
+                    </div>
                     <img src="img/startup-framework.png" class="img-responsive" alt=""/>
                 </a>
                 <div class="portfolio-text">
                     <h4 class="main-title pf-title">Startup Framework</h4>
                     <p class="content-title-bottom pf-text-bottom">Website Design</p>
                 </div>
-
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="">
+            <div class="col-md-4 col-sm-6 pf-box">
+                <a href="#pfModal3" class="pf-modal-link" data-toggle="modal">
+                    <div class="link-top">
+                    <span class="link">
+                         <i class="fa fa-plus fa-3x"></i>
+                    </span>
+                    </div>
                     <img src="img/treehouse.png" class="img-responsive" alt=""/>
                 </a>
                 <div class="portfolio-text">
@@ -113,8 +153,13 @@
                     <p class="content-title-bottom pf-text-bottom">Website Design</p>
                 </div>
            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="">
+            <div class="col-md-4 col-sm-6 pf-box">
+                <a href="#pfModal4" class="pf-modal-link" data-toggle="modal">
+                    <div class="link-top">
+                    <span class="link">
+                         <i class="fa fa-plus fa-3x"></i>
+                    </span>
+                    </div>
                     <img src="img/golden.png" class="img-responsive" alt=""/>
                 </a>
                 <div class="portfolio-text">
@@ -122,8 +167,13 @@
                     <p class="content-title-bottom pf-text-bottom">Website Design</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="">
+            <div class="col-md-4 col-sm-6 pf-box">
+                <a href="#pfModal5" class="pf-modal-link" data-toggle="modal">
+                    <div class="link-top">
+                    <span class="link">
+                         <i class="fa fa-plus fa-3x"></i>
+                    </span>
+                    </div>
                     <img src="img/escape.png" class="img-responsive" alt=""/>
                 </a>
                 <div class="portfolio-text">
@@ -131,8 +181,13 @@
                     <p class="content-title-bottom pf-text-bottom">Website Design</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="">
+            <div class="col-md-4 col-sm-6 pf-box">
+                <a href="#pfModal6"class="pf-modal-link" data-toggle="modal">
+                    <div class="link-top">
+                    <span class="link">
+                         <i class="fa fa-plus fa-3x"></i>
+                    </span>
+                    </div>
                     <img src="img/dreams.png" class="img-responsive" alt=""/>
                 </a>
                 <div class="portfolio-text">
@@ -152,7 +207,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 about-center-grid">
                 <ul class="item-about">
                     <li>
                         <div class="item-about-img">
@@ -263,8 +318,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-8 text-center">
-                <p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+            <div class="col-lg-12 text-center">
+                <p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non
+                    <br/>quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
             </div>
         </div>
     </div>
@@ -356,5 +412,127 @@
         </div>
     </div>
 </footer>
+<!--Portfolio Modals-->
+<!--First Portfolio Modal-->
+<div class="Portfolio-modals modal fade" id="pfModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                        <button type="button" class="pf-modal-close close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="content-title-top">Project Name</h2>
+                        <p class="content-title-bottom">Lorem ipsum dolor sit amet consectetur.</p>
+                        <img class="img-responsive" src="img/roundicons-free.png" alt=""/>
+                        <p class="pf-modal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="pf-modal-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button type="button" class="btn pf-btn" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Second Portfolio Modal-->
+<div class="Portfolio-modals modal fade" id="pfModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                        <button type="button" class="pf-modal-close close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="content-title-top">Project Name</h2>
+                        <p class="content-title-bottom">Lorem ipsum dolor sit amet consectetur.</p>
+                        <img class="img-responsive" src="img/startup-framework-preview.png" alt=""/>
+                        <p class="pf-modal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="pf-modal-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button type="button" class="btn pf-btn" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Third Portfolio Modal-->
+<div class="Portfolio-modals modal fade" id="pfModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                        <button type="button" class="pf-modal-close close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="content-title-top">Project Name</h2>
+                        <p class="content-title-bottom">Lorem ipsum dolor sit amet consectetur.</p>
+                        <img class="img-responsive" src="img/treehouse-preview.png" alt=""/>
+                        <p class="pf-modal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="pf-modal-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button type="button" class="btn pf-btn" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Fourth Portfolio Modal-->
+<div class="Portfolio-modals modal fade" id="pfModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                        <button type="button" class="pf-modal-close close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="content-title-top">Project Name</h2>
+                        <p class="content-title-bottom">Lorem ipsum dolor sit amet consectetur.</p>
+                        <img class="img-responsive" src="img/golden-preview.png" alt=""/>
+                        <p class="pf-modal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="pf-modal-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button type="button" class="btn pf-btn" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Fifth Portfolio Modal-->
+<div class="Portfolio-modals modal fade" id="pfModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                        <button type="button" class="pf-modal-close close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="content-title-top">Project Name</h2>
+                        <p class="content-title-bottom">Lorem ipsum dolor sit amet consectetur.</p>
+                        <img class="img-responsive" src="img/escape-preview.png" alt=""/>
+                        <p class="pf-modal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="pf-modal-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button type="button" class="btn pf-btn" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Sixth Portfolio Modal-->
+<div class="Portfolio-modals modal fade" id="pfModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                        <button type="button" class="pf-modal-close close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="content-title-top">Project Name</h2>
+                        <p class="content-title-bottom">Lorem ipsum dolor sit amet consectetur.</p>
+                        <img class="img-responsive" src="img/dreams-preview.png" alt=""/>
+                        <p class="pf-modal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="pf-modal-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button type="button" class="btn pf-btn" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/script.js"></script>
 </body>
 </html>
