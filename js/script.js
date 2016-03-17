@@ -8,3 +8,18 @@ jQuery(document).ready(function($) {
         $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
     });
 });
+//******add class Active*****//
+$(".nav a").on("click", function(){
+    $(".nav").find(".active").removeClass("active");
+    $(this).parent().addClass("active");
+});
+//******add class navbar-solid*****//
+jQuery(function($) {
+    $(window).scroll(function(){
+        if($(window).scrollTop() >50) {
+            $('.navbar').addClass("navbar-solid");
+        }else {
+            $('.navbar').removeClass("navbar-solid");
+        }
+    });
+});
